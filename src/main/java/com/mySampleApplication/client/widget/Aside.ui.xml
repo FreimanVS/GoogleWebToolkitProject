@@ -11,10 +11,6 @@
             <p ui:field="curs"></p>
         </article>
         <article>
-            <h2>Реклама</h2>
-            <p id="advertisement"></p>
-        </article>
-        <article>
             <h2>Новости</h2>
             <p ui:field="news"></p>
         </article>
