@@ -1,0 +1,115 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             xmlns:c="urn:import:com.google.gwt.user.cellview.client">
+    <ui:style>
+
+    </ui:style>
+
+
+    <g:DeckPanel ui:field="deckPanel">
+        <g:HTMLPanel>
+            <section>
+                <h1>Новости компании</h1>
+                <article>
+                    <h2>ежемесячный финансовый отчёт</h2>
+                    <p>Благодаря старанию наших сотрудников и небольшой удаче месячная прибыль компании Company повысилась на 15%</p>
+                </article>
+                <article>
+                    <h2>спортивные успехи</h2>
+                    <p>Второе место на областном футбольном турнире за нашими ребятами</p>
+                </article>
+                <article>
+                    <h2>новый офис</h2>
+                    <p>В течение недели откроется новый офис по адресу: г. Город, пр. Проспект, д. 1</p>
+                </article>
+            </section>
+        </g:HTMLPanel>
+        <g:HTMLPanel>
+            <section>
+                <article>
+                    <h2>ВХОД</h2>
+                    <form action="" method="post">
+
+                            <input ui:field="loginTextField" name="login" type="text" placeholder="Имя пользователя" required="required" size="25"
+                               minlength="5" maxlength="15" autofocus="autofocus"/>
+
+
+                        <input ui:field="passwordTextField" name="password" type="password" placeholder="Пароль" required="required" size="25"
+                               maxlength="15" pattern="(?=^.{5,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"
+                               title="Минимальное количество знаков 5"/>
+
+
+                        <button ui:field="submit" type="submit">Войти</button>
+                    </form>
+                </article>
+            </section>
+        </g:HTMLPanel>
+        <g:HTMLPanel>
+            <section>
+                <article>
+                    <h2>Скидка в 2 000р. на тариф «Бизнес Pro»</h2>
+                    <p>Получить скидку в 2 000р. на тариф «Бизнес Pro» можно при 100% предоплате работ. Мы работаем по договору,
+                        оплату принимаем только через банк (для юр.лиц - безналичный расчет,
+                        для физ.лиц - через Сбербанк, по кредитной карте или при оплате электронными
+                        деньгами).
+                    </p>
+                </article>
+                <article>
+                    <h2>Скидка в 3 000р. на тариф «Бизнес Pro Каталог»</h2>
+                    <p>При 100% предоплате наших услуг по тарифу «Бизнес Pro Каталог» Вы получаете скидку в размере 3 000р.
+                    </p>
+                </article>
+                <article>
+                    <h2>Скидка в 5 000р. на тариф «Всё включено»</h2>
+                    <p>При 100% предоплате работ Вы получите скидку 5 000р. Мы работаем по договору,
+                        оплату принимаем через банк (для также физ.лиц удобные способы оплаты).
+                    </p>
+                </article>
+            </section>
+        </g:HTMLPanel>
+        <g:HTMLPanel>
+            <section>
+                <article>
+                    <h2>Скрипт для запуска:</h2>
+                    <p>
+                        <input type="text" id="scriptText" size="50"/>
+                    </p>
+                </article>
+                <article>
+                    <h2>Результат:</h2>
+                    <p>
+                        <textarea id="nashornResult" style="height:400px;width:600px;" disabled="disabled"></textarea>
+                    </p>
+                </article>
+            </section>
+        </g:HTMLPanel>
+        <g:HTMLPanel>
+            <section>
+                <article>
+                    <h2>Главный офис</h2>
+                    <p>г. Город, ул. Улица, д. 123</p>
+                    <p>+7(123)456-78-90</p>
+                    <p>Мы работаем пн-пт 10:00-19:00</p>
+                    <p>E-mail: <a href="mailto:mail@mail.mail">mail@mail.mail</a></p>
+                </article>
+            </section>
+        </g:HTMLPanel>
+        <g:VerticalPanel>
+
+            <c:DataGrid width="800px" height="600px"
+                        ui:field='dataGrid' />
+
+            <g:HTMLPanel>
+                <table style="width:200px">
+                    <tr>
+                        <td
+                                align='center'>
+                            <c:SimplePager location="CENTER"
+                                           ui:field='pager' />
+                        </td>
+                    </tr>
+                </table>
+            </g:HTMLPanel>
+        </g:VerticalPanel>
+    </g:DeckPanel>
+</ui:UiBinder>

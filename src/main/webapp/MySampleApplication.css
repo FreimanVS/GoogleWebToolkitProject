@@ -1,0 +1,166 @@
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+body header {
+    background-color: #e7e7e7;
+    height: 180px;
+    width: 100%;
+    clear: both;
+}
+
+body header section {
+    height: 80%;
+}
+
+body header section h1 {
+    background-color: #e7e7e7;
+    padding: 2px;
+    height: 30%;
+    margin: 0 0 2px 0;
+}
+
+body header section {
+    background-color: #e7e7e7;
+    overflow: hidden;
+
+}
+
+body header section img {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+body header section form {
+    position: absolute;
+    top: 95px;
+    margin-left: 500px;
+}
+
+#phone {
+    position: absolute;
+    top: 95px;
+    margin-left: 1000px;
+    width: 150px;
+}
+
+body header nav {
+    clear: both;
+    background-color: #e7e7e7;
+    padding: 2px;
+    margin: auto;
+    height: 17%;
+}
+
+body header nav ul {
+    list-style-type: none;
+    background-color: #e7e7e7;
+    overflow: hidden;
+    padding: 2px;
+    margin-top: 0;
+    width:1280px;
+}
+
+body header nav ul li {
+    background-color: rgb(255, 123, 31);
+    width: 120px;
+    height: 45%;
+    float: left;
+    margin-top: 1px;
+    margin-right: 50px;
+    padding: 2px;
+    border: 0;
+}
+
+body header nav ul :last-child {
+    margin-right: 0;
+}
+
+body header nav ul li a {
+    text-decoration: none;
+    display: block;
+}
+
+body header nav ul li a:hover{
+    color: #000;
+    background: #fff;
+}
+
+body main {
+    background-color: white;
+    padding: 2px;
+
+
+    width: 65%;
+    float: left;
+}
+
+body main section {
+    background-color: white;
+}
+
+body main section h1 {
+    background-color: #aa7ce7;
+}
+
+body main section article h1 {
+    margin-left: 200px;
+}
+
+body main section article form {
+    margin-left: 100px;
+}
+
+body main section article {
+    background-color: rgba(246, 255, 13, 0.08);
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+body main section h1,
+body main section article h2,
+body main section article p,
+body aside h2,
+header nav ul li a{
+    text-align: center;
+}
+
+body aside {
+    width: 33%;
+    padding: 2px;
+    float: right;
+    background-color: rgba(101, 255, 254, 0.05);
+}
+
+body footer {
+    clear: both;
+    background-color: #e7e7e7;
+    height: 70px;
+    width: 100%;
+    padding-top: 30px;
+}
+
+body footer section {
+    background-color: #e7e7e7;
+    width: 1920px;
+}
+
+#social_media {
+    margin-left: 20px;
+    width: 200px;
+    float: left;
+}
+
+#copyright {
+    margin-left: 300px;
+    width: 200px;
+    float: left;
+}
+
+#inf_project {
+    margin-left: 300px;
+    width: 300px;
+    float: left;
+}

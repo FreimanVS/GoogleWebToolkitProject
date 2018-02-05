@@ -1,0 +1,30 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+    <ui:style>
+
+    </ui:style>
+
+    <g:HTMLPanel>
+        <section>
+            <h1>COMPANY</h1>
+            <img src="http://www.logologo.com/logos/tree-logo.jpg"
+                 alt="logo" style="width:80px;height:80px;border:0;"></img>
+
+            <form action="https://www.google.com/search" method="GET">
+                <input name="q" type="text" placeholder="поиск" size="30"/>
+                <button type="submit">Найти</button>
+            </form>
+
+            <span id="phone"><b>+7(123)456-78-90</b></span>
+        </section>
+        <nav>
+            <ul>
+                <li><g:Anchor ui:field="a1" text="ГЛАВНАЯ"></g:Anchor></li>
+                <li><g:Anchor ui:field="a2" text="ВХОД"></g:Anchor></li>
+                <li><g:Anchor ui:field="a3" text="СКИДКИ"></g:Anchor></li>
+                <li><g:Anchor ui:field="a4" text="АДМИНСКАЯ"></g:Anchor></li>
+                <li><g:Anchor ui:field="a5" text="КОНТАКТЫ"></g:Anchor></li>
+            </ul>
+        </nav>
+    </g:HTMLPanel>
+</ui:UiBinder>
